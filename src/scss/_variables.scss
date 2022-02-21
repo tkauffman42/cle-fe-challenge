@@ -1,0 +1,35 @@
+
+
+
+@import "./modules/font.scss";
+@import "./modules/spacing.scss";
+@import "./modules/colors.scss";
+
+
+
+// border-radius --------------------------------------
+$rounded-none: 0px;
+$rounded-sm: 0.125rem;
+$rounded: 0.25rem;
+$rounded-md: 0.375rem;
+$rounded-lg: 0.5rem;
+$rounded-xl: 0.75rem;
+$rounded-2xl: 1rem;
+$rounded-3xl: 1.5rem;
+$rounded-full: 9999px;
+
+
+// Shadows
+$ring-offset-shadow: 0 0 #0000;
+$ring-shadow: 0 0 #0000;
+$shadow-sm: $ring-offset-shadow, $ring-shadow,  0 1px 2px 0 rgba(0, 0, 0, 0.05);
+$shadow:    $ring-offset-shadow, $ring-shadow,  0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+$shadow-md: $ring-offset-shadow, $ring-shadow,  0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+$shadow-lg: $ring-offset-shadow, $ring-shadow,  0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+$shadow-xl: $ring-offset-shadow, $ring-shadow,  0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+$shadow-2xl: $ring-offset-shadow, $ring-shadow,  0 25px 50px -12px rgba(0, 0, 0, 0.25);
+$shadow-inner: $ring-offset-shadow, $ring-shadow,  inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+$shadow-none: $ring-offset-shadow, $ring-shadow,  0 0 #0000;
+
+
+
